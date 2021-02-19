@@ -26,6 +26,10 @@
             font-weight: 600;
             color: #000;
         }
+        ul li::marker {
+            color: red;
+            font-size: 20px;
+        }
         @page { margin: 70px 0 70px 0; }
         @page :first{ margin: 0 0 70px 0;}
         #footer { position: fixed; left: 0px; bottom: -100px; right: 0px; text-align:center;height: 100px;}
@@ -39,7 +43,7 @@
     <img src="https://rollingnexus.com/image/catalog/logo/rolling-nexus.png" style="width: 100px; object-fit: contain;">
 </div>
 <div id="content">
-<table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0" style=" padding: 10px 20px 10px;">
+    <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0" style=" padding: 10px 20px 10px;">
         <tr>
             <td>
                 <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
@@ -81,12 +85,6 @@
                                 <tr>
                                     <td>
                                         <p style="font-size: 14px; font-weight: 700; color:#000;">Training</p>
-                                        <!-- <p style="margin: 5 0; text-transform: capitalize;">Business Process Improvement</p>
-                                        <p style="margin: 5 0; text-transform: capitalize;">Process Scheduling</p>
-                                        <p style="margin: 5 0; text-transform: capitalize;">Sales analysis</p>
-                                        <p style="margin: 5 0; text-transform: capitalize;">communication skills</p>
-                                        <p style="margin: 5 0; text-transform: capitalize;">team management</p>
-                                        <p style="margin: 5 0; text-transform: capitalize;">coding language (C#, python)</p> -->
                                         <div style="margin-bottom: 15px;">
                                             <p style="color: #000; font-weight: 600; margin-bottom: 8px;">Rolling Training center Pvt. Ltd</p>
                                             <p style="margin: 0 0 5px; font-style: italic;">Bijulibazar, Kathmandu</p>
@@ -120,71 +118,45 @@
                                 <tr>
                                     <td>
                                         <p style="font-size: 14px; font-weight: 700; color:#000;">Experiences</p>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px;">2017/12 - Present</p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
-                                                    <p style="text-transform: capitalize; font-style: italic; margin: 0;">Section hospital, ME</p>
-                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
-                                                        <li>Oversaw all major hostpital IT projects for 10+ years</li>
-                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
-                                                        <li>Implementing highly successful training and six sigma project</li>
-                                                        <li>Reducing the cost of IT infrastructure maintainence by 5% in 2019</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px;">2017/12 - 2014/02</p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
-                                                    <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
-                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
-                                                        <li>Oversaw all major hostpital IT projects for 10+ years</li>
-                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
-                                                        <li>Implementing highly successful training and six sigma project</li>
-                                                        <li>Reducing the cost of IT infrastructure maintainence by 5% in 2019</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <div style="border-left: 1px solid #000; margin-left: 5px;">
+                                            <ul style="padding-left: 9px;">
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2017/12 - Present</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Senior Project Manager</p>
+                                                    <p style="margin: 7px 0;">Oversaw all major hostpital IT projects for 10+ years</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Implementing highly successful training and six sigma project</p>
+                                                </li>
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2017/12 - 2014/02</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, quidem!</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Implementing highly successful training and six sigma project</p>
+                                                    <p style="margin: 7px 0;">Reducing the cost of IT infrastructure maintainence by 5% in 2019</p>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <p style="font-size: 14px; font-weight: 700; color:#000;">Education</p>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px; margin: 8px 0;">2011/06 - 2013/04</p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 8px 0;">Master of Comuputer science, Tribhuvan University</p>
-                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
-                                                        <li>Member of Student Asociation of Project Management</li>
-                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
-                                                        <li>Manage Student Project to develop Library Management System</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px; margin: 8px 0;">2011/06 - 2013/04</p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 8px 0;;">Master of Comuputer science, Tribhuvan University</p>
-                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
-                                                        <li>Member of Student Asociation of Project Management</li>
-                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
-                                                        <li>Manage Student Project to develop Library Management System</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <div style="border-left: 1px solid #000; margin-left: 5px;">
+                                            <ul style="padding-left: 9px;">
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2011/06 - 2013/04</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Member of Student Asociation of Project Management</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Manage Student Project to develop Library Management System</p>
+                                                </li>
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2011/06 - 2013/04</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Member of Student Asociation of Project Management</p>
+                                                    <p style="margin: 7px 0;">Responsive  for creating improving and developing IT Project Strategies</p>
+                                                    <p style="margin: 7px 0;">Manage Student Project to develop Library Management System</p>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                             </table>
@@ -198,7 +170,7 @@
             <td>
                 <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="30%" valign="bottom">
+                        <td width="30%" valign="top">
                             <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td>
@@ -228,32 +200,19 @@
                                 <tr>
                                     <td>
                                         <p style="font-size: 14px; font-weight: 700; color:#000;">Certificates</p>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px; margin: 8px 0;">2011/06 </p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; text-transform: capitalize; margin: 8px 0;">Master of Comuputer science, Tribhuvan University</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px; margin: 8px 0;">2011/06 </p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; text-transform: capitalize; margin: 8px 0;">Master of Comuputer science, Tribhuvan University</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="20%" valign="top">
-                                                    <p style="font-weight: 600; padding-right: 15px; margin: 8px 0;">2011/06 </p>
-                                                </td>
-                                                <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; text-transform: capitalize; margin: 8px 0;">Master of Comuputer science, Tribhuvan University</p>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <div style="border-left: 1px solid #000; margin-left: 5px;">
+                                            <ul style="padding-left: 9px;">
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2011/06</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Master of Comuputer science, Tribhuvan University</p>
+                                                </li>
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2011/06</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Master of Comuputer science, Tribhuvan University</p>
+                                                </li>
+                                                <li style="padding-bottom: 10px;"><p style="font-size: 14px; font-weight: 600;">2011/06</p>
+                                                    <p style="font-size: 14px; color: orange; margin: 10px 0;">Master of Comuputer science, Tribhuvan University</p>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
