@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: Roboto,sans-serif!important;
-            font-size: 16px;
+            font-size: 12px;
             min-width: 400px;
         }
         

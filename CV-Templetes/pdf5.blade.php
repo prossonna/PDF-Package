@@ -10,9 +10,8 @@
 
     <style>
         body {
-			font-size: 16px ;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
-            font-size: 15px;
+            font-size: 12px;
             min-width: 400px;
             color: #666;
 		}
