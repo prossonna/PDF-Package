@@ -30,6 +30,49 @@
             color: red;
             font-size: 20px;
         }
+        @font-face {
+            font-family: "FontAwesomeRegular";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeBrands";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeSolid";
+            font-weight: bold;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf") format("truetype");
+        } 
+
+        .fas{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fas:before{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fab{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+        }
+        .fab:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+        }
+        .far{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+        }
+        .far:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+        }
     </style>
 </head>
 <body>

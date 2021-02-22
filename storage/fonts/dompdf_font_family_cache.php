@@ -84,4 +84,16 @@
     'normal' => $fontDir . '/font_awesome_5_free_normal_d1f0a3197cf5913babf88b27920523e7',
     '900' => $fontDir . '/font_awesome_5_free_900_cfd7b0ec2e1dcb48519b97faea4f30cc',
   ),
+  'fontawesome' => array(
+    'normal' => $fontDir . '/fontawesome_normal_0d054c01a20249458ebc59d71623830f',
+  ),
+  'fontawesomeregular' => array(
+    'normal' => $fontDir . '/fontawesomeregular_normal_f9f82a8d67ce68a54aadcd220317113f',
+  ),
+  'fontawesomebrands' => array(
+    'normal' => $fontDir . '/fontawesomebrands_normal_511be80956dd12396274257652f25b3b',
+  ),
+  'fontawesomesolid' => array(
+    'bold' => $fontDir . '/fontawesomesolid_bold_edf46fab0f27ea184250069f85b7eb1b',
+  ),
 ) ?>

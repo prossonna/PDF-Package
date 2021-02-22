@@ -32,6 +32,49 @@
         li.t-col-2-data {
             margin-bottom: 5px;
         }
+        @font-face {
+            font-family: "FontAwesomeRegular";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeBrands";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeSolid";
+            font-weight: bold;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf") format("truetype");
+        } 
+
+        .fas{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fas:before{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fab{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+        }
+        .fab:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+        }
+        .far{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+        }
+        .far:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+        }
         
     </style>
 
@@ -48,7 +91,7 @@
 
     <div style="padding: 20px 0;">
         <div class="container">
-            <div style="margin-bottom: 50px;">
+            <div style="margin-bottom: 20px;">
                 <hr style="margin: 7px 20px 7px 20px; border-top: 1px solid #e65f5f;">
                 <p style="margin: 7px 0px 7px 20px;  text-transform: uppercase;  font-size: 18px; font-weight: 600; letter-spacing: 1px; color: #e65f5f;">about</p>
                 <hr style="margin: 7px 20px 7px 20px; border-top: 1px solid #e65f5f;">

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" />
-    <title>Frame 2</title>
+    <title>Frame 6</title>
 
-    <style>
+    <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
             font-size: 12px !important;
@@ -29,6 +29,54 @@
         ul li::marker {
             color: red;
             font-size: 20px;
+        }
+        @font-face {
+            font-family: "FontAwesomeRegular";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeBrands";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeSolid";
+            font-weight: bold;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf") format("truetype");
+        } 
+
+        .fas{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+            font-size: 12px;
+        }
+        .fas:before{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fab{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+            font-size: 12px;
+        }
+        .fab:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+            font-size: 12px;
+        }
+        .far{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+            font-size: 12px;
+        }
+        .far:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+            font-size: 12px;
         }
         @page { margin: 70px 0 70px 0; }
         @page :first{ margin: 0 0 70px 0;}

@@ -6,25 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" />
-    <title>Frame 2</title>
+    <title>Frame 3</title>
 
-    <style>
+    <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
             font-size: 12px;
             min-width: 400px;
             color: #666;
 		}
-        span.icon-awe {
-            padding: 5px 6px;
-            background: #141371;
-            color: white;
-            border-radius: 50%;
-        }
         p.category-detail-p {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 600;
             color: #000;
+        }
+        @font-face {
+            font-family: "FontAwesomeRegular";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeBrands";
+            font-weight: normal;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "FontAwesomeSolid";
+            font-weight: bold;
+            font-style : normal;
+            src : url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf") format("truetype");
+        } 
+
+        .fas{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+            font-size: 12px;
+        }
+        .fas:before{
+            font-weight: bold !important;
+            font-family: FontAwesomeSolid !important;
+        }
+        .fab{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+            font-size: 12px;
+        }
+        .fab:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeBrands !important;
+            font-size: 12px;
+        }
+        .far{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+            font-size: 12px;
+        }
+        .far:before{
+            font-weight: normal !important;
+            font-family: FontAwesomeRegular !important;
+            font-size: 12px;
         }
         @page { margin: 70px 0 70px 0; }
         @page :first{ margin: 0 0 70px 0;}
@@ -63,7 +105,7 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0"  width="100%" style="padding-right: 20px;">
                                 <tr>
                                     <td>
-                                        <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-user"></i></span> Personal info</p>
+                                        <p class="category-detail-p"><span><i class="fas fa-user"></i></span> Personal info</p>
                                         <hr style=" width: 98%; margin: 0;">
                                     </td>
                                 </tr>
@@ -93,7 +135,7 @@
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 10px;">
-                                        <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-users-cog"></i></span> Skills</p>
+                                        <p class="category-detail-p"><span><i class="fas fa-users-cog"></i></span> Skills</p>
                                         <hr style=" width: 98%; margin: 0;">
                                     </td>
                                 </tr>
@@ -109,7 +151,7 @@
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 10px;">
-                                        <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-flag"></i></span> Languages</p>
+                                        <p class="category-detail-p"><span><i class="fas fa-flag"></i></span> Languages</p>
                                         <hr style=" width: 98%; margin: 0;">
                                     </td>
                                 </tr>
@@ -125,7 +167,7 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-right: 10px;">
                                 <tr>
                                     <td>
-                                        <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-briefcase"></i></span> Experience</p>
+                                        <p class="category-detail-p"><span><i class="fas fa-briefcase"></i></span> Experience</p>
                                         <hr style=" width: 100%; margin: 0;">
                                     </td>
                                 </tr>
@@ -137,7 +179,7 @@
                                                     <p style="font-weight: 600; padding-right: 15px;">2017/12 - Present</p>
                                                 </td>
                                                 <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
                                                     <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
                                                     <ul style="padding: 5px 0 10px 20px; margin: 0;">
                                                         <li>Oversaw all major hostpital IT projects for 10+ years</li>
@@ -152,7 +194,7 @@
                                                     <p style="font-weight: 600; padding-right: 15px;">2017/12 - Present</p>
                                                 </td>
                                                 <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
                                                     <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
                                                     <ul style="padding: 5px 0 10px 20px; margin: 0; text-align: justify;">
                                                         <li>Oversaw all major hostpital IT projects for 10+ years</li>
@@ -167,7 +209,7 @@
                                                     <p style="font-weight: 600; padding-right: 15px;">2017/12 - 2014/02</p>
                                                 </td>
                                                 <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
                                                     <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
                                                     <ul style="padding: 5px 0 10px 20px; margin: 0;">
                                                         <li>Oversaw all major hostpital IT projects for 10+ years</li>
@@ -183,7 +225,7 @@
                                 <tr>
                                     <td>
                                         
-                                        <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-graduation-cap"></i></span> Education</p>
+                                        <p class="category-detail-p"><span><i class="fas fa-graduation-cap"></i></span> Education</p>
                                         <hr style=" width: 100%; margin: 0;">
                                     </td>
                                 </tr>
@@ -195,7 +237,7 @@
                                                     <p style="font-weight: 600; padding-right: 15px;">2011/06 - 2013/04</p>
                                                 </td>
                                                 <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
                                                     <ul style="padding: 5px 0 10px 20px; margin: 0;">
                                                         <li>Member of Student Asociation of Project Management</li>
                                                         <li>Responsive  for creating improving and developing IT Project Strategies</li>
@@ -208,7 +250,7 @@
                                                     <p style="font-weight: 600; padding-right: 15px;">2011/06 - 2013/04</p>
                                                 </td>
                                                 <td width="80%" valign="top">
-                                                    <p style="font-weight: 600; font-size: 17px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
                                                     <ul style="padding: 5px 0 10px 20px; margin: 0;">
                                                         <li>Member of Student Asociation of Project Management</li>
                                                         <li>Responsive  for creating improving and developing IT Project Strategies</li>
@@ -228,7 +270,7 @@
         <tr>
             <td style="padding-top: 10px;" colspan="2">
             <p style="page-break-after: right;"></p>
-                <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-laptop-code"></i></i></span> Projects</p>
+                <p class="category-detail-p"><span><i class="fas fa-laptop-code"></i></i></span> Projects</p>
                 <hr style=" width: 98%; margin: 0;">
             </td>
         </tr>
@@ -240,7 +282,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-torah"></i></span> Certification</p>
+                <p class="category-detail-p"><span><i class="fas fa-torah"></i></span> Certification</p>
                 <hr style=" width: 100%; margin: 0;">
             </td>
         </tr>
@@ -276,7 +318,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <p class="category-detail-p"><span class="icon-awe"><i class="fas fa-asterisk"></i></span> Reference</p>
+                <p class="category-detail-p"><span><i class="fas fa-asterisk"></i></span> Reference</p>
                 <hr style=" width: 100%; margin: 0;">
             </td>
         </tr>
