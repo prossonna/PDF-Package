@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" />
-    <title>Frame 2</title>
+    <title>Frame 6</title>
 
     <style>
         body {
@@ -215,7 +215,14 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
                                     <td>
                                         <p style="font-size: 14px; font-weight: 700; color:#000;">Reference</p>
                                         <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
@@ -234,16 +241,17 @@
                                                     <p style="margin: 7px 0;">9874563210</p>
                                                     <p style="margin: 7px 0;">Rolling Plans Pvt. Ltd</p>
                                                 </td>
+                                                <td valign="top" align="left">
+                                                    <p style="margin: 7px 0;">Jonney Deep</p>
+                                                    <p style="margin: 7px 0;">IT manager</p>
+                                                    <a href="#"><p style="margin: 7px 0;">joney@gmail.com</p></a>
+                                                    <p style="margin: 7px 0;">9874563210</p>
+                                                    <p style="margin: 7px 0;">Rolling Plans Pvt. Ltd</p>
+                                                </td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
     </table>
 </div>
 
