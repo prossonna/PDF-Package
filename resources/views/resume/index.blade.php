@@ -6,27 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>Frame 7</title>
+    <title>Frame 8</title>
 
     <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
-            font-size: 12px !important;
+            font-size: 14px !important;
             min-width: 400px;
             color: #666;
 		}
-        .sphare-circle {
-            background: #7bdcb1;
-            color: #FFF;
-            padding: 20px;
-            border-radius: 50%;
-            clip-path: polygon(50% 0, 80% 10%, 95% 35%, 94% 68%, 78% 90%, 50% 100%, 16% 91%, 4% 68%, 2% 35%, 20% 10%);
+        .sec-heading{
+            font-size: 18px; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            margin: 0;
         }
-        p.font-icon i.fas.fa-user, p.font-icon i.fas.fa-briefcase, p.font-icon i.fas.fa-lightbulb {
-            font-size: 25px;
+        .p-heading {
+            font-size: 16px;
+            margin: 10px 0 0;
         }
-        p.font-icon{
-            text-align: center;
+        .p-tagline {
+            font-style: italic; 
+            margin: 5px 0 15px;
+        }
+        .p-tagline-e {
+            margin: 5px 0 15px;
         }
 
         @font-face {
@@ -76,157 +80,157 @@
             font-family: FontAwesomeRegular !important;
         }
         
-        /* @page { margin: 70px 0 70px 0; }
-        @page :first{ margin: 0 0 70px 0;}
-        #footer { position: fixed; left: 0px; bottom: -100px; right: 0px; text-align:center;height: 100px;}
-        #footer .page:after {  } */
         
     </style>
 </head>
 <body>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#7bdcb1" style="height: 1000px;">
+
+    <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
         <tbody>
             <tr>
-                <td width="100%">
-                    <table width="90%" style="margin: auto; height: 1000px;" bgcolor="#FFF">
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tbody>
                             <tr>
-                                <td>
-                                    <p style="font-size: 16px; text-align: center; text-transform: uppercase; font-weight: 700;"> Prasanna <span class="sphare-circle">PC</span> Chaudhary</p>
-                                    <p style="text-transform: uppercase; text-align: center; font-size: 14px;     margin: 30px 0; letter-spacing: 4px;">Front end web developer</p>
+                                <td width="300" bgcolor="#0C486C" valign="top" style="color: #FFF; text-align: right; padding-right: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 50px;  margin: 40px 0 3o0px; font-weight: 700;">PC</p>
+                                </td>
+                                <td valign="top" style="text-align: left; padding-left: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 20px;  margin: 50px 0 0; font-weight: 700;">Prasanna <br> Chaudhary</p>
+                                    <p style="font-style: italic; text-transform: capitalize; margin: 5px 0 0;">Front End Web Develop</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    <table width="90%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;" bgcolor="#7bdcb1">
+                                <td width="300" bgcolor="#0C486C" valign="top" style="color: #FFF; text-align: right; padding-right: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 18px; font-weight: 600; height: 10px; width: 50px; background: #FFF; float: right; margin: 5px 0 0;"></p>
+                                    <div style="margin: 30px 0 0;">
+                                        <p class="p-heading">Tribhuvan University</p>
+                                        <p class="p-tagline">2015 - 2019</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">HSEB</p>
+                                        <p class="p-tagline">2013 - 2015</p>
+                                    </div>
+                                </td>
+                                <td valign="top" style="text-align: left; padding-left: 15px;">
+                                    <p class="sec-heading">Education</p>
+                                    <div>
+                                        <p class="p-heading">Bachelor in Information Manaement</p>
+                                        <p class="p-tagline">Major in Information Technology</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">+2 Management</p>
+                                        <p class="p-tagline">Computer Science</p>
+                                    </div>
+                                    <!-- For Line gap between two section -->
+                                    <div style="margin-bottom: 30px;"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="300" bgcolor="#0C486C" valign="top" style="color: #FFF; text-align: right; padding-right: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 18px; font-weight: 600; height: 10px; width: 50px; background: #FFF; float: right; margin: 5px 0 0;"></p>
+                                    <div style="margin: 30px 0 0;">
+                                        <p class="p-heading">Rolling Plans Pvt. Ltd</p>
+                                        <p class="p-tagline">2021/01 - Present</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">Next Nepal Pvt. Ltd</p>
+                                        <p class="p-tagline">2020/02 - 2020/12</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">It Arrow</p>
+                                        <p class="p-tagline">2019/05 - 2020/02</p>
+                                    </div>
+                                </td>
+                                <td valign="top" style="text-align: left; padding-left: 15px;">
+                                    <p class="sec-heading">Experience</p>
+                                    <div>
+                                        <p class="p-heading">Front End Web Developer</p>
+                                        <p class="p-tagline-e">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque laudantium voluptas ipsum quo iure quibusdam perferendis repellat culpa vero?</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">Front End Web Developer</p>
+                                        <p class="p-tagline-e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias praesentium explicabo fuga, odit eius?</p>
+                                    </div>
+                                    <div>
+                                        <p class="p-heading">+2 Management</p>
+                                        <p class="p-tagline-e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo reprehenderit voluptate officiis delectus, blanditiis harum. Temporibus optio itaque perferendis sit saepe iste sint voluptatum!</p>
+                                    </div>
+                                    <!-- For Line gap between two section -->
+                                    <div style="margin-bottom: 30px;"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="300" bgcolor="#0C486C" valign="top" style="color: #FFF; text-align: right; padding-right: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 18px; font-weight: 600; height: 10px; width: 50px; background: #FFF; float: right; margin: 5px 0 0;"></p>
+                                </td>
+                                <td valign="top" style="text-align: left; padding-left: 15px;">
+                                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tbody>
                                             <tr>
-                                                <td colspan="2" bgcolor="#FFF">
-                                                <p class="font-icon"><i class="fas fa-user"></i></p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="50%" style="padding: 0 15px; border-right: 4px solid #7bdcb1;"  valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: right; margin: 0;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">Profile</p>
-                                                        <p style="line-height: 24px;">A self-motivated IT Front End Web Developer with good discipline and opportunist to learn new skills to improve person as well as professional skills. Ability to lead a team and utilize skills, knowledge as well as work accordingly to help the company to accomplish its goal and objectives.</p>
+                                                <td width="50%" valign="top">
+                                                    <p class="sec-heading">Skills</p>
+                                                    <div>
+                                                        <p>HTML 5</p>
+                                                        <p>CSS 3</p>
+                                                        <p>JavaScript</p>
+                                                        <p>JQuery</p>
+                                                        <p>Bootstrap</p>
+                                                        <p>React (Basic)</p>
                                                     </div>
                                                 </td>
-                                                <td width="50%" style="padding: 0 15px; border-left: 4px solid #7bdcb1;" valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: left; margin: 0;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">contact</p>
+                                                <td width="50%" valign="top">
+                                                    <p class="sec-heading">Projects</p>
+                                                    <div>
+                                                        <p>PDF-Resume</p>
+                                                        <p>IT Arrow</p>
+                                                        <p>Library Management</p>
+                                                        <p>CV-Templete</p>
+                                                        <p>Newsletter</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div style="margin-bottom: 30px;"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="300" bgcolor="#0C486C" valign="top" style="color: #FFF; text-align: right; padding-right: 15px;">
+                                    <p style="text-transform: uppercase; font-size: 18px; font-weight: 600; height: 10px; width: 50px; background: #FFF; float: right; margin: 5px 0 0;"></p>
+                                </td>
+                                <td valign="top" style="text-align: left; padding-left: 15px;">
+                                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%" valign="top">
+                                                    <p class="sec-heading">Contact</p>
+                                                    <div>
                                                         <p>1997/09/20</p>
                                                         <p>Koteshwor, Kathmandu</p>
-                                                        <p>9804004135</p>
-                                                        <p><a href="#" style="text-decoration: none; font-style: italic;">plezzennt.prossonna123@gmail.com</a></p>
+                                                        <p>plezzennt.prossonna123@gmail.com</p>
+                                                        <p>984210214</p>
+                                                    </div>
+                                                </td>
+                                                <td width="50%" valign="top">
+                                                    <p class="sec-heading">Language</p>
+                                                    <div>
+                                                        <p>Nepali (Mother Tongue)</p>
+                                                        <p>English</p>
                                                     </div>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <table width="90%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;" bgcolor="#7bdcb1">
-                                        <tbody>
-                                            <tr>
-                                                <td colspan="2" bgcolor="#FFF">
-                                                    <p class="font-icon"><i class="fas fa-briefcase"></i></p>
-                                                    <!-- <p style="text-align:center;">ICON</p> -->
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="50%" style="padding: 0 15px; border-right: 4px solid #7bdcb1;"  valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: right;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">Experiences</p>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Rolling Plans pvt. ltd <span> : </span> 2021/01 - Present</p>
-                                                            <p style="margin: 0; font-style: italic;">Front End Web Developer</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Next Nepal pvt. ltd <span> : </span> 2020/02 - 2020/12</p>
-                                                            <p style="margin: 0; font-style: italic;">Front End Web Developer</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">IT Arrow pvt. ltd <span> : </span> 2019/05 - 2020/02</p>
-                                                            <p style="margin: 0; font-style: italic;">Wordpress Developer</p>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td width="50%" style="padding: 0 15px; border-left: 4px solid #7bdcb1;" valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: left;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">Education</p>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Orchid International college, Gaushala <span> : </span> 2015/10 - 2019/09</p>
-                                                            <p style="margin: 0; font-style: italic;">Bachelor in Information Management</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Koshi St. James College, Itahari <span> : </span> 2013/06 - 2015/05</p>
-                                                            <p style="margin: 0; font-style: italic;">+2 Management</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Koshi st. James School, Itahari<span> : </span> 2009/04 - 2013/03</p>
-                                                            <p style="margin: 0; font-style: italic;">SLC (Secondary Level)</p>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <table width="90%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;" bgcolor="#7bdcb1">
-                                        <tbody>
-                                            <tr>
-                                                <td colspan="2" bgcolor="#FFF">
-                                                <p class="font-icon" style="margin-left: auto; margin-right: auto;"><i class="fas fa-lightbulb"></i></p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="50%" style="padding: 0 15px; border-right: 4px solid #7bdcb1;"  valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: right;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">skills</p>
-                                                        <p>Hyper Text Markup Language (HTML 5)</p>
-                                                        <p>Cascading Style Sheet (CSS 3)</p>
-                                                        <p>JavaScript </p>
-                                                        <p>React</p>
-                                                        <p>JQuery</p>
-                                                        <p>Content Writing</p>
-                                                    </div>
-                                                </td>
-                                                <td width="50%" style="padding: 0 15px; border-left: 4px solid #7bdcb1;" valign="top" bgcolor="#FFF">
-                                                    <div style="text-align: left;">
-                                                        <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">projects</p>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">Greenlingcenter.com.np</p>
-                                                            <p style="margin: 0; font-style: italic;">Liquor E-shop</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">itarrow.com</p>
-                                                            <p style="margin: 0; font-style: italic;">Informative Offical Website</p>
-                                                        </div>
-                                                        <div style="margin-bottom: 10px;">
-                                                            <p style="font-weight: 600; margin-bottom: 5px;">PDF-Resume</p>
-                                                            <p style="margin: 0; font-style: italic;">Build your Resume Online</p>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div style="margin-bottom: 30px;"></div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </td>
             </tr>
-            
         </tbody>
     </table>
-
 
 </body>
 </html>
