@@ -253,7 +253,7 @@
                     <table width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tbody>
                             <tr>
-                                <td width="40%" style="padding: 0 15px; border-right: 4px solid #7bdcb1;"  valign="top">
+                                <td width="50%" style="padding: 0 15px; border-right: 4px solid #7bdcb1;"  valign="top">
                                     <div style="text-align: right;">
                                         <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">Language</p>
                                         <p style="margin-bottom: 5px;">Nepali (Mother Tongue)</p>
@@ -261,7 +261,7 @@
                                         <p>Hindi</p>
                                     </div>
                                 </td>
-                                <td width="60%" style="padding: 0 15px; border-left: 4px solid #7bdcb1;" valign="top">
+                                <td width="50%" style="padding: 0 15px; border-left: 4px solid #7bdcb1;" valign="top">
                                     <div style="text-align: left;">
                                         <p style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 0;">Training</p>
                                         <div style="margin-bottom: 10px; margin-top: 0;">
