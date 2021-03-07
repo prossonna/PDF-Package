@@ -10,13 +10,10 @@
     <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
-            font-size: 12px !important;
+            font-size: 12px;
             min-width: 400px;
             color: #666;
 		}
-        body {
-            font-size: 12px;
-        }
         .left-content {
             float: left;
             width: 35%;

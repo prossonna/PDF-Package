@@ -11,7 +11,7 @@
     <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
-            font-size: 14px !important;
+            font-size: 14px;
             min-width: 400px;
             color: #666;
 		}
