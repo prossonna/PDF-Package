@@ -20,7 +20,7 @@
         .left-content {
             float: left;
             width: 35%;
-            height: 1050px;
+            height: 100%;
             background: #353945;
             color: #afabab;
 
@@ -36,6 +36,9 @@
         }
         p {
             margin: 0;
+        }
+        ul li {
+            margin: 5px 0;
         }
 
         @font-face {
@@ -112,19 +115,19 @@
 
                 <!-- Conatact Details -->
                 <div class="contact-details">
-                    <div style="padding: 10px;">
+                    <div style="padding: 10px 10px 5px;">
                         <p style="margin: 5px 0; font-size: 14px;">Date of Birth</p>
                         <p style="margin: 5px 0;">1996/06/04</p>
                     </div>
-                    <div style="padding: 10px;">
+                    <div style="padding: 10px 10px 5px;">
                         <p style="margin: 5px 0; font-size: 14px;">Phone</p>
                         <p style="margin: 5px 0;">9804004372</p>
                     </div>
-                    <div style="padding: 10px;">
+                    <div style="padding: 10px 10px 5px;">
                         <p style="margin: 5px 0; font-size: 14px;">Email</p>
                         <a href="#"><p style="margin: 5px 0; font-style: italic;">plezzennt.prossonna123@gmail.com</p></a>
                     </div>
-                    <div style="padding: 10px;">
+                    <div style="padding: 10px 10px 5px;">
                         <p style="margin: 5px 0; font-size: 14px;">Address</p>
                         <p style="margin: 5px 0;">Koteshwor, Kathmandu</p>
                     </div>
@@ -156,13 +159,24 @@
                 </div>
             </div>
 
+            <!-- Languages -->
+            <div class="languages">
+                <div style=" margin-top: 45px; font-weight: 600; font-size: 14px; background: #ebebeb26; padding: 8px 10px;">Languages  
+                </div>
+
+                <ul>
+                    <li>Nepali (Native)</li>
+                    <li>English</li>
+                    <li>Spanish</li>
+                </ul>
+            </div>
         </div>
 
         <!-- Right Content Started -->
         <div class="right-content">
             <div class="user-name" style="padding: 10px;">
-                <p style="margin: 50px 0 0 0; font-size: 16px;">Prasanna</p>
-                <p style="margin: 0 0 10px 30px; font-size: 16px;">Chaudhary</p>
+                <p style="margin: 50px 0 0 0; font-size: 40px;">Prasanna</p>
+                <p style="margin: 0 0 10px 30px; font-size: 40px;">Chaudhary</p>
                 <p style="font-style: italic; margin: 0; font-size: 14px;">Front End Web Developer</p>
             </div>
 
@@ -258,13 +272,10 @@
                         <td width="50%" valign="top">
                             <div style="margin-top: 20px;">
                                 <ul>
-                                    <li>HTML 5 (Hypertext Markup Language)</li>
-                                    <li>CSS (Cascading Style Sheet)</li>
-                                    <li>Bootstrap</li>
-                                    <li>Javascript</li>
-                                    <li>Photoshop</li>
-                                    <li>Figma</li>
-                                    <li>Adove XD</li>
+                                    <li>Rolling Freelance</li>
+                                    <li>CV - Template</li>
+                                    <li>Greenline Liquor</li>
+                                    <li>Newsletter</li>
                                 </ul>
                             </div>
                         </td>
