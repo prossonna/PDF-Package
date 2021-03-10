@@ -6,48 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" />
-    <title>Frame 10</title>
+    <title>Frame 3</title>
 
     <style type="text/css">
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif,sans-serif!important;
             font-size: 12px;
-            max-width: 800px;
+            min-width: 400px;
             color: #666;
-            margin: 0 auto;
 		}
-        .left-content {
-            float: left;
-            width: 65%;
-
-        }
-        .contact {
-            background: #2f2f2f;
-            color: #FFF;
-        }
-        .category-title {
-            font-size: 16px;
+        p.category-detail-p {
+            font-size: 14px;
             font-weight: 600;
-            text-transform: uppercase;
-            margin: 20px 0 10px;
+            color: #000;
         }
-        .right-content {
-            float: right;
-            width: 35%; 
-            height: 77%;
-            background: #DCDCDC; 
-        }
-        a {
-            text-decoration: none;
-            color: unset;
-        }
-        p {
-            margin: 0;
-        }
-        ul li {
-            margin: 5px 0;
-        }
-
         @font-face {
             font-family: "FontAwesomeRegular";
             font-weight: normal;
@@ -84,6 +56,7 @@
         .fab:before{
             font-weight: normal !important;
             font-family: FontAwesomeBrands !important;
+            font-size: 12px;
         }
         .far{
             font-weight: normal !important;
@@ -93,182 +66,290 @@
         .far:before{
             font-weight: normal !important;
             font-family: FontAwesomeRegular !important;
+            font-size: 12px;
         }
-        
-        @page { margin: 0 0 0 0; }
-        @page :first{ margin: 0 0 0 0;}
-        #footer { position: fixed; left: 0px; bottom: 20px; right: 0px; text-align:center;height: 100px;}
+        @page { margin: 70px 0 70px 0; }
+        @page :first{ margin: 0 0 70px 0;}
+        #footer { position: fixed; left: 0px; bottom: -100px; right: 0px; text-align:center;height: 100px;}
         #footer .page:after {  }
-        
+
+        table {page-break-afte: always;} 
+        tr{page-break-inside: avoid;  
+           page-break-after: always;} 
     </style>
 </head>
 <body>
-
 <div id="footer" style="display: block;margin-left: auto;margin-right: auto;">
     <img src="https://rollingnexus.com/image/catalog/logo/rolling-nexus.png" style="width: 100px; object-fit: contain;">
 </div>
-
-    <div id="content">
-        <!-- Top Content -->
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-                <td width="60%" valign="top">
-                    <div class="top-content" style="padding-left: 15px;">
-                        <p style="text-transform: uppercase; font-size: 55px;">PARK MIN <br> YOUNG</p>
-                        <hr style="width: 80%; margin-left: 0; border-bottom: 2px solid;">
-                        <p style="font-size: 24px;">UI & UX DESIGNER</p>
-                        
-                    </div>
-                </td>
-                <td width="40%" valign="top">
-                    <div class="profile_pic">
-                        <img src="https://lifestylehub.blob.core.windows.net/starstudio/park-min-young/park-min-young-in-blue.jpg" alt="img_prfl_pic" style="width: 90%; height: 255px;">
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-        <!-- Left Content -->
-        <div class="left-content">
-            
-            <!-- Contact -->
-            <div class="contact"  style="padding: 10px 10px 10px 15px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<div id="content">
+    <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0" style=" padding: 10px 20px 10px;">
+        <tr>
+            <td>
+                <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td valign="top">
-                            <div>
-                                <p style="margin: 5px 0; font-size: 14px;">Phone</p>
-                                <p style="margin: 5px 0;">9804004372</p>
-                            </div>
-                        </td>
-                        <td valign="top">
-                            <div>
-                                <p style="margin: 5px 0; font-size: 14px;">Email</p>
-                                <p style="margin: 5px 0; font-style: italic;">parkminyoung88@gmail.com</p>
-                            </div>
-                        </td>
-                        <td valign="top">
-                            <div>
-                                <p style="margin: 5px 0; font-size: 14px;">Address</p>
-                                <p style="margin: 5px 0;">Baneshwor, Kathmandu</p>
-                            </div>
+                        <td width="100%">
+                            <h1 style="margin: 0; text-transform: capitalize; color: #000;">John Doe</h1>
+                            <p style="margin: 5px 0; font-style: italic; color: #141371; text-align: justify;">IT Project Manager</p>
+                            <p style="margin: 10px 0; padding-right: 10px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi illum totam cumque. Consectetur, ad! Magni quod saepe at doloremque iusto reprehenderit aliquid repudiandae provident tenetur dolorum est illum ipsa nostrum blanditiis officia ab, modi sequi fugiat dolore? Inventore ea ad, in ipsa sit sunt incidunt tempora deserunt impedit aspernatur culpa excepturi exercitationem quaerat autem veniam alias amet ab! Recusandae id, voluptas nam ab vitae, saepe delectus aspernatur et molestiae eius eaque nesciunt, quae neque sit optio tempora sint. Quos eius voluptate eaque dicta numquam pariatur non dolor saepe nemo obcaecati consequuntur totam, est quidem eveniet enim odit temporibus ratione.</p> 
                         </td>
                     </tr>
                 </table>
-            </div>
-
-            <!-- Profile -->
-            <div class="profile" style="padding-left: 15px; padding-right: 10px;">
-                <p class="category-title">Profile</p>
-                <p style="text-align: justify; line-height: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad illum pariatur quos dolorem temporibus. Debitis ipsum aspernatur dignissimos soluta dolor perferendis magnam nulla laudantium asperiores necessitatibus esse omnis iste temporibus, eius, illo cumque. Aliquid quas ipsa, similique porro enim neque cupiditate? Aliquam veniam, impedit magni qui ipsam asperiores dolorem consequuntur!</p>
-            </div>
-
-            <!-- Experiences -->
-            <div class="experience" style="padding-left: 15px;">
-                <p class="category-title">Experiences</p>
-                <div style="margin-bottom: 15px;">
-                    <p style="margin: 5px 0; font-weight: 600;">2021/01 - Present</p>
-                    <p style="margin: 5px 0;">Rolling Plans Pvt. Ltd</p>
-                    <p style="margin: 5px 0; font-weight: 600;">Front End Web Developer</p>
-                    <p style="margin: 5px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem cumque deserunt officiis sed doloribus repellat, culpa dignissimos in animi.</p>
-                </div>
-                <div style="margin-bottom: 15px;">
-                    <p style="margin: 5px 0; font-weight: 600;">2021/01 - Present</p>
-                    <p style="margin: 5px 0;">Rolling Plans Pvt. Ltd</p>
-                    <p style="margin: 5px 0; font-weight: 600;">Front End Web Developer</p>
-                    <p style="margin: 5px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem cumque deserunt officiis sed doloribus repellat, culpa dignissimos in animi.</p>
-                </div>
-            </div>
-
-            <!-- Refrences -->
-            <div class="refrence" style="padding-left: 15px;">
-                <p class="category-title">Refrences</p>
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td>
-                            <div style="border-right: 2px solid;">
-                                <p style="font-size: 14px; font-weight: 600; margin: 5px 0;">Chrissy Costanza</p>
-                                <p style="margin: 5px 0; font-weight: 600;">Project Manager</p>
-                                <p style="margin: 5px 0;">Soch Point Pvt. Ltd</p>
-                                <p style="margin: 5px 0; font-style: italic;">cchrissy@gmail.com</p>
-                            </div>
+                        <td width="20%" valign="top">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0"  width="100%" style="padding-right: 20px;">
+                                <tr>
+                                    <td>
+                                        <p class="category-detail-p"><span><i class="fas fa-user"></i></span> Personal info</p>
+                                        <hr style=" width: 98%; margin: 0;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: 600; margin-bottom: 5px;">Date Of Birth</p>
+                                        <p style="margin: 0;">1996/10/12</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: 600; margin-bottom: 5px;">Phone</p>
+                                        <p style="margin: 0;">+977 9841236578</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: 600; margin-bottom: 5px;">Email</p>
+                                        <p style="margin: 0;">John@gmail.com</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-weight: 600; margin-bottom: 5px;">Address</p>
+                                        <p style="margin: 0;">New Baneshwor, Kathmandu</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 10px;">
+                                        <p class="category-detail-p"><span><i class="fas fa-users-cog"></i></span> Skills</p>
+                                        <hr style=" width: 98%; margin: 0;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin: 5 0; text-transform: capitalize;">Business Process Improvement</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">Process Scheduling</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">Sales analysis</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">communication skills</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">team management</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">coding language (C#, python)</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 10px;">
+                                        <p class="category-detail-p"><span><i class="fas fa-flag"></i></span> Languages</p>
+                                        <hr style=" width: 98%; margin: 0;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin: 5 0; text-transform: capitalize;">Nepali</p>
+                                        <p style="margin: 5 0; text-transform: capitalize;">English</p>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
-                        <td>
-                            <div style="border-left: 2px solid; padding-left: 15px;">
-                                <p style="font-size: 14px; font-weight: 600; margin: 5px 0;">Chrissy Costanza</p>
-                                <p style="margin: 5px 0; font-weight: 600;">Project Manager</p>
-                                <p style="margin: 5px 0;">Soch Point Pvt. Ltd</p>
-                                <p style="margin: 5px 0; font-style: italic;">cchrissy@gmail.com</p>
-                            </div>
+                        <td width="80%" valign="top">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-right: 10px;">
+                                <tr>
+                                    <td>
+                                        <p class="category-detail-p"><span><i class="fas fa-briefcase"></i></span> Experience</p>
+                                        <hr style=" width: 100%; margin: 0;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                            <tr>
+                                                <td width="20%" valign="top">
+                                                    <p style="font-weight: 600; padding-right: 15px;">2017/12 - Present</p>
+                                                </td>
+                                                <td width="80%" valign="top">
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
+                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
+                                                        <li>Oversaw all major hostpital IT projects for 10+ years</li>
+                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
+                                                        <li>Implementing highly successful training and six sigma project</li>
+                                                        <li>Reducing the cost of IT infrastructure maintainence by 5% in 2019</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="20%" valign="top">
+                                                    <p style="font-weight: 600; padding-right: 15px;">2017/12 - Present</p>
+                                                </td>
+                                                <td width="80%" valign="top">
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
+                                                    <ul style="padding: 5px 0 10px 20px; margin: 0; text-align: justify;">
+                                                        <li>Oversaw all major hostpital IT projects for 10+ years</li>
+                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
+                                                        <li>Implementing highly successful training and six sigma project</li>
+                                                        <li>Reducing the cost of IT infrastructure maintainence by 5% in 2019</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="20%" valign="top">
+                                                    <p style="font-weight: 600; padding-right: 15px;">2017/12 - 2014/02</p>
+                                                </td>
+                                                <td width="80%" valign="top">
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Senior Project Manager</p>
+                                                    <p style="text-transform: capitalize; font-style: italic;margin: 0;">Section hospital, ME</p>
+                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
+                                                        <li>Oversaw all major hostpital IT projects for 10+ years</li>
+                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
+                                                        <li>Implementing highly successful training and six sigma project</li>
+                                                        <li>Reducing the cost of IT infrastructure maintainence by 5% in 2019</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                        <p class="category-detail-p"><span><i class="fas fa-graduation-cap"></i></span> Education</p>
+                                        <hr style=" width: 100%; margin: 0;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                            <tr>
+                                                <td width="20%" valign="top">
+                                                    <p style="font-weight: 600; padding-right: 15px;">2011/06 - 2013/04</p>
+                                                </td>
+                                                <td width="80%" valign="top">
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
+                                                        <li>Member of Student Asociation of Project Management</li>
+                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
+                                                        <li>Manage Student Project to develop Library Management System</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="20%" valign="top">
+                                                    <p style="font-weight: 600; padding-right: 15px;">2011/06 - 2013/04</p>
+                                                </td>
+                                                <td width="80%" valign="top">
+                                                    <p style="font-weight: 600; font-size: 14px; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                                                    <ul style="padding: 5px 0 10px 20px; margin: 0;">
+                                                        <li>Member of Student Asociation of Project Management</li>
+                                                        <li>Responsive  for creating improving and developing IT Project Strategies</li>
+                                                        <li>Manage Student Project to develop Library Management System</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
                 </table>
-            </div>
-        </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top: 10px;" colspan="2">
+            <p style="page-break-after: right;"></p>
+                <p class="category-detail-p"><span><i class="fas fa-laptop-code"></i></i></span> Projects</p>
+                <hr style=" width: 98%; margin: 0;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span><a href="https://github.com/prossonna" style="text-decoration: none;"><p style="margin: 5 0; text-transform: capitalize;">Newsletter</p></a></span>
+                <span><a href="https://github.com/prossonna" style="text-decoration: none;"><p style="margin: 5 0; text-transform: capitalize;">CV-Templetes</p></a></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p class="category-detail-p"><span><i class="fas fa-torah"></i></span> Certification</p>
+                <hr style=" width: 100%; margin: 0;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
+                    <tr>
+                        <td width="20%" valign="top">
+                            <p style="font-weight: 600; padding-right: 15px;">2011/06 </p>
+                        </td>
+                        <td width="80%" valign="top">
+                            <p style="font-weight: 600; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%" valign="top">
+                            <p style="font-weight: 600; padding-right: 15px;">2011/06 </p>
+                        </td>
+                        <td width="80%" valign="top">
+                            <p style="font-weight: 600; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%" valign="top">
+                            <p style="font-weight: 600; padding-right: 15px;">2011/06 </p>
+                        </td>
+                        <td width="80%" valign="top">
+                            <p style="font-weight: 600; text-transform: capitalize; margin: 13px 0 5px;">Master of Comuputer science, Tribhuvan University</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p class="category-detail-p"><span><i class="fas fa-asterisk"></i></span> Reference</p>
+                <hr style=" width: 100%; margin: 0;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table role="presentation" cellspacing="0" cellpadding="0" width="100%" border="0">
+                    <tr>
+                        <td valign="top" align="left">
+                            <p>Jonney Deep</p>
+                            <p>IT manager</p>
+                            <a href="#"><p>joney@gmail.com</p></a>
+                            <p>9874563210</p>
+                            <p>Rolling Plans Pvt. Ltd</p>
+                        </td>
+                        <td valign="top" align="left">
+                            <p>Jonney Deep</p>
+                            <p>IT manager</p>
+                            <a href="#"><p>joney@gmail.com</p></a>
+                            <p>9874563210</p>
+                            <p>Rolling Plans Pvt. Ltd</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
 
-        
-        <!-- Right Content -->
-        <div class="right-content">
-            
-        <!-- Education -->
-            <div class="education" style="padding: 0 10px;">
-                <p class="category-title">Education</p>
-                <div style="margin: 10px 0;">
-                    <p style="font-weight: 600;">2015 - 2019</p>
-                    <p style="font-weight: 600;">Bachelor in Information Management (BIM)</p>
-                    <p>Orchid International College, Gaushala</p>
-                    <p>Tribhuvan University</p>
-                </div>
-                <div style="margin: 10px 0">
-                    <p style="font-weight: 600;">2013 - 2015</p>
-                    <p style="font-weight: 600;">Management</p>
-                    <p>Koshi St. James College, Itahari</p>
-                    <p>HSEB</p>
-                </div>
-                <div style="margin: 10px 0">
-                    <p style="font-weight: 600;">2013</p>
-                    <p style="font-weight: 600;">SLC</p>
-                    <p>Koshi St. James School, Itahari</p>
-                    <p>Nepal Governament</p>
-                </div>
-            </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/js/all.min.js" integrity="sha512-/Hn7mYbBR5AzOJSNR6p80QQDXFIPFKTLMak6/LyKqyCuFQU3zHqZphy8kNKwWS4BA1sDbuZ0VN/IEn3xvinJVw==" crossorigin="anonymous"></script>
 
-            <!-- Skills -->
-            <div class="skills" style="padding: 0 10px;">
-                <p class="category-title">Skills</p>
-                <ul>
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>InDesign</li>
-                    <li>After Effect</li>
-                    <li>Sketch</li>
-                    <li>Motion Graphics</li>
-                </ul>
-            </div>
 
-            <!-- Languages -->
-            <div class="skills" style="padding: 0 10px;">
-                <p class="category-title">Languages</p>
-                <ul>
-                    <li>Nepali (Native)</li>
-                    <li>English</li>
-                    <li>Korean</li>
-                </ul>
-            </div>
-
-            <!-- Projects -->
-            <div class="project" style="padding: 0 10px;">
-                <p class="category-title">Projects</p>
-                <ul>
-                    <li>PDF - Resume</li>
-                    <li>Rolling Freelance</li>
-                    <li>CV - Template</li>
-                    <li>HR Newsletter</li>
-                    <li>Resume</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
 </body>
 </html>
